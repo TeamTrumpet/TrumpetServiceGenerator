@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    trumpet_service_generator (0.0.1)
+    trumpet_service_generator (1.0)
+      interactor (~> 3.0)
       rails (~> 4.1.6)
 
 GEM
@@ -38,6 +39,7 @@ GEM
     erubis (2.7.0)
     hike (1.2.3)
     i18n (0.6.11)
+    interactor (3.1.0)
     json (1.8.1)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
@@ -83,5 +85,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  interactor (~> 3.0)
   sqlite3
   trumpet_service_generator!

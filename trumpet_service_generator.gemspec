@@ -17,5 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.1.6"
   s.add_dependency "interactor", "~> 3.0"
 
+  s.metadata['allowed_push_host'] = 'https://gems.trumpet.ca/'
+
   s.add_development_dependency "sqlite3"
 end
