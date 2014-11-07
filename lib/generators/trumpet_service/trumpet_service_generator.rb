@@ -3,9 +3,7 @@ class TrumpetServiceGenerator < Rails::Generators::NamedBase
   argument :service_module, :type => :string
 
   def generate_service
-    puts service_module.underscore
-    puts name.underscore
-
     template "service.rb", "app/services/#{service_module.underscore}_service/#{name.underscore}.rb"
+    template "rspec.rb", "spec/services/#{service_module.underscore}_service/#{name.underscore}_spec.rb"
   end
 end
