@@ -12,3 +12,6 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+# For building service objects
+gem "interactor", "~> 3.0"
